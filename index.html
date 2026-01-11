@@ -218,11 +218,14 @@
 
 <!-- 🔧 CORREÇÃO DO PROBLEMA DE SCROLL AO ATUALIZAR -->
 <script>
-    window.scrollTo(0, 0);
+    window.addEventListener("load", () => {
+        window.scrollTo(0, 0);
+    });
 </script>
 
 </body>
 </html>
+
 
 
 
